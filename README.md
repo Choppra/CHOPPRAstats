@@ -6,8 +6,9 @@ A more detailed README will be updated shortly.
 
 Things you will need to know:
 
-- How to setup a web server.
+- How to setup a web server with PHP Support.
 - How to setup a *SELECT* only MYSQL user name with remote access (if your web server is running on a different server)
+-- remember, SELECT ONLY to keep your arma database safe.
 - How to setup overwrites in EXILE (ExileServer_object_player_event_onMpKilled.sqf)
 - How to execute SQL queries to create the required fields and tables.
 
