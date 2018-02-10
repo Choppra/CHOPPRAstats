@@ -18,4 +18,4 @@ Critical Files to Edit:
 - /navbar.php
 -- **Needs to be edited to matck your condb.php**
 
-** ExileServer_object_player_event_onMpKilled.sqf was modified and created A LONG TIME AGO.  From my understanding, it still works just fine.  Feel free to modify anything you see in there.  A few communities are running this stats page and have been for almost a year.  It's still working just fine.
+** ExileServer_object_player_event_onMpKilled.sqf was modified and created A LONG TIME AGO.  From my understanding, it still works just fine.  Feel free to modify anything you see in there.  A few communities are running this stats page and have been for almost a year.  It's still working just fine. **
