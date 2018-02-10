@@ -1,5 +1,7 @@
 CHOPPRAstats
 
+Demo: http://45.32.211.193 
+
 I am far from a PHP Expert.  I did this project for fun to teach myself some new things.  Please feel free to suggest improvements or request a fork of this project.
 
 A more detailed README will be updated shortly.
