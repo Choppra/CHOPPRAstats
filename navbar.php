@@ -32,7 +32,7 @@ header("Location: " . $_SERVER["PHP_SELF"]);
                     <select name="changedb" class="form-control" onchange="this.form.submit()">
                         <option value="" selected="selected" hidden="">ACTIVE: <?php echo $_SESSION['dbase'] ?></option>
                         <option value="EXILE DB1">EXILE DB1</option>
-                        <option value="EXILE DB2">EXILE DB2</option>
+                        <!-- uncomment if you have two databases <option value="EXILE DB2">EXILE DB2</option> -->
                     </select>
                 </form>
             </ul>
@@ -40,7 +40,7 @@ header("Location: " . $_SERVER["PHP_SELF"]);
 </nav>
 <script type="text/javascript">
 function setValue() {
-document.getElementById('changedb').value = "EXILE DB1;
+document.getElementById('changedb').value = "EXILE DB1";
 }
 </script>
 

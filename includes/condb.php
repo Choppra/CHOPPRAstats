@@ -24,6 +24,7 @@
                
             }
           break;
+        /*  start - remove this comment block if you want to use 2 servers
         case "EXILE DB2":
         function connectdb(){
                 define('DB_DRV', 'mysql');
@@ -44,6 +45,7 @@
                
             }
           break;
+          */
                 default:
              function connectdb(){
                 define('DB_DRV', 'mysql');
