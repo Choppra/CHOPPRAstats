@@ -7,17 +7,24 @@ I am far from a PHP Expert. I did this project for fun to teach myself some new 
 ## Things you will need to do:
 1) Setup a webserver
 2) Setup a read (Select) only MYSQL user account.
+
 `CREATE USER 'stats-read'@'localhost' IDENTIFIED BY 'password';`
 `GRANT SELECT PRIVILEGES ON * . * TO 'stats-read'@'localhost';`
 `FLUSH PRIVILEGES;`
+
 Note: if you plan on remotely accessing the database you will need to configure your user and database to allow for remote connections.  Please do this securely if you plan to do so.
+
 3) Setup an Overwrite for ExileServer_object_player_event_onMpKilled.sqf.
+
 `The file is provided in the repo`
+
 4) Add this entry to your exile.ini
-`[updatePlayerStats]
-SQL1_1 = INSERT INTO player_stats SET killer = ?, victim = ?, weaponused = ?, distance = ?, bambikill = ?, territorykill = ?, raidkill = ?, time = NOW()
+[updatePlayerStats]
+`SQL1_1 = INSERT INTO player_stats SET killer = ?, victim = ?, weaponused = ?, distance = ?, bambikill = ?, territorykill = ?, raidkill = ?, time = NOW()
+Number of Inputs = 7
 SQL1_INPUTS = 1,2,3,4,5,6,7`
 5) Alter your DATABASE to include the following field and new table.
+
 `ALTER TABLE account ADD catchphrase VARCHAR(60);`
 ``CREATE TABLE `player_stats` (
 	`id` INT(11) NOT NULL AUTO_INCREMENT,
@@ -37,8 +44,11 @@ COLLATE='utf8_general_ci'
 ENGINE=InnoDB
 AUTO_INCREMENT=1
 ;``
+
 6) Edit /includes/condb.php
 `condb.php is setup for 2 servers.  If you have multiple databases, add the second or third one and uncomment the sections in condb.`
+
 7) Edit /includes/navbar.php
 `if you have two databses be sure to uncomment the line for the second database.`
+
 
