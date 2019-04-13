@@ -1,8 +1,6 @@
 # CHOPPRAstats 
 ##### Detailed Stats website for ARMA3's Exile MOD.
 ---
-# Disclaimer
-I am far from a PHP Expert. I did this project for fun to teach myself some new things. Please feel free to suggest improvements or request a fork of this project.  Also, the EXILE file I made modifications to were done over a year ago.  I am not a exile scripter and if you find a more effcient way of doing it, feel free to.
 
 ## Things you will need to do:
 1) Setup a webserver
