@@ -51,4 +51,10 @@ AUTO_INCREMENT=1
 7) Edit /includes/navbar.php
 `if you have two databses be sure to uncomment the line for the second database.`
 
+== screenshots ==
+
+https://i.imgur.com/px4x3qJ.png
+https://i.imgur.com/B0HAe3E.png
+https://i.imgur.com/rt08esp.png
+
 
